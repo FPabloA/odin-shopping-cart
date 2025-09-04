@@ -1,6 +1,6 @@
 import App from "./App";
-import Shop from "./components/Shop";
-import Cart from "./components/Cart";
+import Shop from "./components/pages/Shop";
+import Cart from "./components/pages/Cart";
 
 const routes = [
     {

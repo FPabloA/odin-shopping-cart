@@ -1,0 +1,26 @@
+a {
+    color: white;
+}
+
+.navbar {
+    border-bottom: solid 3px gray;
+    display: flex;
+    padding: 15px;
+}
+
+.navbar-left {
+    font-size: 32px;
+    border-right: solid 1px gray;
+    flex-grow: 1;
+}
+
+.navbar-middle {
+    font-size: 32px;
+    border-right: solid 1px gray;
+    flex-grow: 1;
+}
+
+.navbar-right {
+    font-size: 32px;
+    flex-grow: 1;
+}
