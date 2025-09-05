@@ -1,0 +1,46 @@
+.shop-item-wrapper {
+    display: flex;
+    border: solid gray 1px;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.shop-item-left {
+    flex-grow: 1;
+}
+
+.shop-item-img {
+    background-color: purple;
+    min-height: 250px;
+    min-width: 250px;
+}
+
+.shop-item-right {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.shop-item-title {
+    font-size: 32px;
+    border-bottom: solid gray 1px;
+}
+
+.shop-item-price {
+    font-size: 24px;
+}
+
+.shop-item-interact-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-item-input {
+    font-size: 18px;
+    text-align: center;
+}

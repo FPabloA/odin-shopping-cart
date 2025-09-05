@@ -14,7 +14,7 @@ const Home = () => {
           <div className="home-body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, maiores voluptates quos quod repellendus beatae fugiat officia, cupiditate quo iusto quis eligendi ab dicta doloremque quae deserunt sequi sed alias!</div>
         </div>
         <h2>High Value with Low Prices!</h2>
-        <div home-body-text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorem laborum saepe dolor. Aspernatur rem praesentium, placeat maxime culpa, perspiciatis doloremque ex ratione repellendus voluptas consequatur amet repudiandae modi ipsa.</div>
+        <div className="home-body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorem laborum saepe dolor. Aspernatur rem praesentium, placeat maxime culpa, perspiciatis doloremque ex ratione repellendus voluptas consequatur amet repudiandae modi ipsa.</div>
       </div>
     </>
     
