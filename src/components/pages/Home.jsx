@@ -1,12 +1,23 @@
-import { Link } from "react-router";
+import { useLocation } from "react-router";
+import { useState } from "react";
 import Shop from "./Shop";
 import Navbar from "../Navbar";
 import "../styles/Home.css"
 
 const Home = () => {
+  const location = useLocation();
+  const [itemList, setItemList] = useState(location.state);
+
+  let numItems = 0;
+  for (var prop in itemList) {
+    if (Object.prototype.hasOwnProperty.call(itemList, prop)) {
+      numItems += itemList[prop]
+    }
+  }
+
   return (
     <>
-    <Navbar></Navbar>
+    <Navbar numItems={numItems} shopItems={itemList}></Navbar>
       <div className="home-wrapper">
         <h1 className="home-header">Shop at Fakemart!</h1>
         <div className="home-about">

@@ -1,22 +1,25 @@
 import "./styles/ShopItem.css"
 import { useState } from "react";
 
-function ShopItem({imgURL, itemName="Item", price=0}) {
+function ShopItem({imgURL, itemName="Item", price=0, passItemsToPage}) {
     const [numItem, setNumItem] = useState(0);
 
     const handleNumChange = (e) => {
         const newNum = e.target.value;
         setNumItem(newNum);
+        passItemsToPage(itemName, newNum);
     }
 
     const handleNumIncrease = () => {
         const newNum = parseInt(numItem) + 1;
         setNumItem(newNum);
+        passItemsToPage(itemName, newNum);
     }
 
     const handleNumDecrease = () => {
         const newNum = parseInt(numItem) - 1;
         setNumItem(newNum);
+        passItemsToPage(itemName, newNum);
     }
 
     return (
