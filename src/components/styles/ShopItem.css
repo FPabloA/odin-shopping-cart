@@ -10,10 +10,17 @@
     flex-grow: 1;
 }
 
+.shop-item-img-con {
+    background-color: rgba(255, 255, 255, 0.082);
+    height: 250px;
+    width: 250px;
+    
+}
+
 .shop-item-img {
-    background-color: purple;
-    min-height: 250px;
-    min-width: 250px;
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
 }
 
 .shop-item-right {
